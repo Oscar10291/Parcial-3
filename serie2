@@ -1,0 +1,26 @@
+public class Atleta {
+	//atributos
+	
+	static int contador = 0;
+	int identificado;
+	String nombre;
+	double tiempo;
+	static String seleccion = "Colombia";
+	static double TiempoEquipo;
+	
+	//constructor
+	public Atleta (String nombre, double tiempo){
+		contador++;
+		identificador = contador;
+		this.nombre = nombre;
+		this.tiempo = tiempo;
+	}
+	
+	//metodos
+	//metodo acumular
+	public void corre400mts(){
+		tiempoEquipo = tiempoEquipo + tiempo;
+	}
+	
+	//mostrar en pantalla datos del atleta
+	public void imp
